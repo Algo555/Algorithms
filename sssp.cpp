@@ -1,3 +1,4 @@
+// sssp=single source shortest path on trees using DFS , for graph we have to use dijkstras algorithm 
 // problem link:  https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/practice-problems/algorithm/bishu-and-his-girlfriend/description/?layout=old
 
 
@@ -55,8 +56,11 @@ int main()
 			min_dist=dist[girl_city] , ans=girl_city;
 
 		else
+		{
 			if(dist[girl_city] == min_dist && girl_city<ans)
 				ans=girl_city;
+		}
+			
 
 	}
 	
