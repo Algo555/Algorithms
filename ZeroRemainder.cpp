@@ -36,7 +36,15 @@ int main()
 			int i = P.ff;
 			
 			if(i != 0)
-			mx = max(mx , cnt * k - i);
+			mx = max(mx , cnt * k - i);//
+			
+			/*
+			 10 6
+			 8 7 1 8 3 7 5 10 8 9
+			 here mp[1]=3;
+			 therefore 3*6 - 1 = 17 is (cnt * k - i)
+ 			
+			*/
 		}
 		
 		if(mx) mx++;
