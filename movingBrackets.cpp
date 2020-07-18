@@ -45,6 +45,6 @@ int main()
 		cin>>n;
 		REP(i , n) cin>>ar[i];
 		
-		cout<<(getAns())/2<<endl;
+		cout<<(getAns())/2<<endl;  // divide by 2 because we have to print number of pairs that are mismatched .
 	}
 }
