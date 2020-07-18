@@ -1,3 +1,6 @@
+// this code does bfs and finds shortest path for horse to reach from start to end
+// https://www.codechef.com/problems/PRGCUP01
+
 #include<bits/stdc++.h>
 #define REP(i,n) for (int i = 1; i <= n; i++)
 #define mod 998244353
