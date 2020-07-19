@@ -16,5 +16,5 @@ ll fastModExp(ll a,ll b,ll m){
 
 using namespace std;
 int main() {
-    cout<<fastModExp(5,3,100)<<endl;
+    cout<<fastModExp(5,3,100)<<endl;//25 because (125%100)=25
 }
